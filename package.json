@@ -33,6 +33,7 @@
     "webpack": "^3.5.5"
   },
   "peerDependencies": {
+    "ember-cli": "*",
     "qunitjs": "*"
   },
   "ember-addon": {
