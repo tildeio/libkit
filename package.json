@@ -28,12 +28,11 @@
     "broccoli-funnel": "^1.2.0",
     "broccoli-merge-trees": "^2.0.0",
     "broccoli-typescript-compiler": "^2.0.0",
-    "git-user-info": "^1.0.1",
+    "ember-cli": "*",
     "glob": "^7.1.2",
     "webpack": "^3.5.5"
   },
   "peerDependencies": {
-    "ember-cli": "*",
     "qunitjs": "*"
   },
   "ember-addon": {
