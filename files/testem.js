@@ -2,7 +2,7 @@ module.exports = {
   "launchers": {
     "Node": {
       "cwd": process.env.EMBER_CLI_TEST_OUTPUT,
-      "command": `qunit commonjs/test/**/*-test.js`,
+      "command": `qunit "commonjs/test/**/*-test.js"`,
       "protocol": "tap"
     },
   },
