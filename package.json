@@ -2,7 +2,7 @@
   "name": "libkit",
   "version": "0.0.1",
   "description": "Ember CLI blueprint for initializing a new TypeScript library.",
-  "main": "index.js",
+  "main": "exports.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,8 +24,16 @@
   },
   "homepage": "https://github.com/tildeio/libkit#readme",
   "dependencies": {
+    "broccoli-caching-writer": "^3.0.3",
+    "broccoli-funnel": "^1.2.0",
+    "broccoli-merge-trees": "^2.0.0",
+    "broccoli-typescript-compiler": "^2.0.0",
+    "git-user-info": "^1.0.1",
+    "glob": "^7.1.2",
+    "webpack": "^3.5.5"
   },
-  "devDependencies": {
+  "peerDependencies": {
+    "qunitjs": "*"
   },
   "ember-addon": {
     "main": "ember-addon-main.js"

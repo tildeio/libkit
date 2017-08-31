@@ -1,3 +1,3 @@
-# <%= name %>
+# <%= packageName %>
 
 A brand new TypeScript library.

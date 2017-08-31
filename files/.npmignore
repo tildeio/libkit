@@ -1,0 +1,9 @@
+.vscode
+.travis.yml
+dist/**/test
+dist/**/node_modules
+test
+tmp
+scripts
+tsconfig.json
+docs

@@ -1,6 +1,9 @@
 'use strict';
+
 const path = require('path');
-const MainBlueprint = require('../../index');
+const root = path.resolve(__dirname, '..', '..');
+
+const Blueprint = require(path.resolve(root, 'lib', 'ember-blueprint'));
 
 /*
   Create an "addon blueprint" that simply defers to our
@@ -16,11 +19,11 @@ const MainBlueprint = require('../../index');
     * ember-addon-main.js file
     * blueprints/ folder
  */
-module.exports = Object.assign({}, MainBlueprint, {
-  init() {
-    this._super.init.apply(this, arguments);
+module.exports = class extends Blueprint {
+  constructor(...args) {
+    super(...args);
 
-    this.path = path.join(__dirname, '..', '..');
+    this.path = root;
     this.name = 'libkit';
   }
-});
+};

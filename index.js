@@ -1,9 +1,4 @@
 'use strict';
 
-module.exports = {
-  description: 'Ember CLI blueprint for initializing a new TypeScript library',
-
-  locals(options) {
-    return { name: options.entity.name };
-  }
-};
+// This is a workaround for https://github.com/ember-cli/ember-cli/issues/7313
+module.exports = require('./lib/ember-blueprint');
