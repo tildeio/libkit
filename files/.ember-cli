@@ -1,3 +1,4 @@
 {
-  "blueprint": "libkit"
+  "blueprint": "libkit",
+  "testPort": "0"
 }
