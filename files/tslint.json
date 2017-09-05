@@ -9,6 +9,7 @@
     "max-classes-per-file": [false],
     "max-line-length": [false],
     "member-access": [true, "no-public"],
+    "no-duplicate-imports": true,
     "no-empty-interface": false,
     "object-literal-sort-keys": false,
     "ordered-imports": [
