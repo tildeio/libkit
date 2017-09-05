@@ -2,8 +2,10 @@
 .travis.yml
 dist/**/test
 dist/**/node_modules
-test
-tmp
+ember-cli-build.js
 scripts
+test
+testem.js
+tmp
 tsconfig.json
-docs
+tsling.json
