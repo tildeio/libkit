@@ -3,5 +3,6 @@
         "**/.git": true,
         "**/.DS_Store": true,
         "tmp": true
-    }
+    },
+    "typescript.tsdk": "node_modules/typescript/lib"
 }
