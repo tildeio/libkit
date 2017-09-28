@@ -8,4 +8,4 @@ test
 testem.js
 tmp
 tsconfig.json
-tsling.json
+tslint.json
