@@ -12,6 +12,7 @@
     "ember-addon"
   ],
   "scripts": {
+    "docs": "typedoc --out docs/ ./src && touch docs/.nojekyll",
     "problems": "node ./scripts/problems.js",
     "preversion": "npm run test",
     "prepack": "ember build -prod",
