@@ -2,6 +2,7 @@
 .travis.yml
 dist/**/test
 dist/**/node_modules
+docs/
 ember-cli-build.js
 scripts
 test
