@@ -30,7 +30,8 @@
     "broccoli-typescript-compiler": "^2.0.0",
     "ember-cli": "*",
     "glob": "^7.1.2",
-    "webpack": "^3.5.5"
+    "webpack": "^3.5.5",
+    "source-map-loader": "^0.2.3"
   },
   "peerDependencies": {
     "qunitjs": "*"
