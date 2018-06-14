@@ -35,7 +35,7 @@
     "source-map-loader": "^0.2.3"
   },
   "peerDependencies": {
-    "qunitjs": "*"
+    "qunit": "*"
   },
   "ember-addon": {
     "main": "ember-addon-main.js"

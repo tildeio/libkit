@@ -14,7 +14,7 @@
   "scripts": {
     "problems": "node ./scripts/problems.js",
     "preversion": "npm run test",
-    "prepack": "ember build -prod",
+    "prepare": "ember build -prod",
     "build": "ember build -prod",
     "build-tests": "ember build",
     "pretest": "npm run problems",
@@ -24,9 +24,9 @@
   "license": "MIT",
   "devDependencies": {
     "@types/qunit": "^2.0.31",
-    "ember-cli": "^2.18.2",
+    "ember-cli": "^3.1.4",
     "libkit": "^<%= libkitVersion %>",
-    "qunitjs": "^2.4.0",
+    "qunit": "^2.4.1",
     "shelljs": "^0.7.8",
     "tslint": "^5.7.0",
     "typescript": "^2.4.2"
