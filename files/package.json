@@ -14,7 +14,7 @@
   "scripts": {
     "problems": "node ./scripts/problems.js",
     "preversion": "npm run test",
-    "prepack": "ember build -prod",
+    "prepare": "ember build -prod",
     "build": "ember build -prod",
     "build-tests": "ember build",
     "pretest": "npm run problems",
