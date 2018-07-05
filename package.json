@@ -34,7 +34,8 @@
     "find-yarn-workspace-root": "^1.1.0",
     "glob": "^7.1.2",
     "webpack": "^3.5.5",
-    "source-map-loader": "^0.2.3"
+    "source-map-loader": "^0.2.3",
+    "get-monorepo-packages": "^1.0.1"
   },
   "peerDependencies": {
     "qunit": "*"
