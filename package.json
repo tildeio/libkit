@@ -32,13 +32,16 @@
     "broccoli-typescript-compiler": "^2.0.0",
     "ember-cli": "*",
     "find-yarn-workspace-root": "^1.1.0",
+    "get-monorepo-packages": "^1.0.1",
     "glob": "^7.1.2",
     "webpack": "^3.5.5",
-    "source-map-loader": "^0.2.3",
-    "get-monorepo-packages": "^1.0.1"
+    "source-map-loader": "^0.2.3"
   },
   "peerDependencies": {
     "qunit": "*"
+  },
+  "resolutions": {
+    "typescript": "^3.0.0"
   },
   "ember-addon": {
     "main": "ember-addon-main.js"
