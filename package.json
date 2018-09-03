@@ -1,6 +1,6 @@
 {
   "name": "libkit",
-  "version": "0.7.0-beta.1",
+  "version": "0.7.0-beta.2",
   "description": "Ember CLI blueprint for initializing a new TypeScript library.",
   "main": "exports.js",
   "scripts": {
@@ -34,8 +34,8 @@
     "find-yarn-workspace-root": "^1.1.0",
     "get-monorepo-packages": "^1.0.1",
     "glob": "^7.1.2",
-    "webpack": "^3.5.5",
-    "source-map-loader": "^0.2.3"
+    "source-map-loader": "^0.2.3",
+    "webpack": "^3.5.5"
   },
   "peerDependencies": {
     "qunit": "*"
