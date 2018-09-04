@@ -29,7 +29,7 @@
     "broccoli-funnel": "^1.2.0",
     "broccoli-merge-trees": "^2.0.0",
     "broccoli-tee": "^1.0.2",
-    "broccoli-typescript-compiler": "^2.0.0",
+    "broccoli-typescript-compiler": "^3.0.0",
     "ember-cli": "*",
     "find-yarn-workspace-root": "^1.1.0",
     "get-monorepo-packages": "^1.0.1",
