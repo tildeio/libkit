@@ -23,13 +23,15 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@types/qunit": "^2.0.31",
-    "ember-cli": "^3.1.4",
+    "@types/qunit": "^2.5.4",
+    "ember-cli": "^3.8.1",
     "libkit": "^<%= libkitVersion %>",
-    "qunit": "^2.4.1",
-    "shelljs": "^0.7.8",
-    "tslint": "^5.7.0",
-    "typescript": "^2.4.2"
+    "prettier": "^1.16.4",
+    "qunit": "^2.9.2",
+    "shelljs": "^0.8.3",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint": "^5.14.0",
+    "typescript": "^3.3.3333"
   },
   "dependencies": {
     "ts-std": "^0.6.2"
