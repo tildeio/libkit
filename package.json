@@ -1,6 +1,6 @@
 {
   "name": "libkit",
-  "version": "0.7.0",
+  "version": "v0.7.0-beta.3",
   "description": "Ember CLI blueprint for initializing a new TypeScript library.",
   "main": "exports.js",
   "scripts": {
